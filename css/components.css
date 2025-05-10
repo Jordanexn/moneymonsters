@@ -1,4 +1,21 @@
+
+
+/*navbar styling*/
 .topnav{
     background-color: #7F56D9;
+    height:80px;
     overflow: hidden;
+}
+.topnav a {
+  color:#F9F5FF;
+  
+}
+
+.button {
+    background-color: #7F56D9;
+     height:50px;
+     width: 150px;
+     border-color:#F9F5FF;
+     border-radius: 20px;
+     color:#F9F5FF;
 }
