@@ -7,15 +7,21 @@
     overflow: hidden;
 }
 .topnav a {
+    float:left;
   color:#F9F5FF;
-  
+  display: block;
+  text-align: center;
+  padding: 24px 24px;
+  text-decoration: none;
+  font-size: x-large;
 }
 
 .button {
     background-color: #7F56D9;
-     height:50px;
-     width: 150px;
+     height:60px;
+     width: 230px;
      border-color:#F9F5FF;
      border-radius: 20px;
      color:#F9F5FF;
+     font-size: x-large;
 }
