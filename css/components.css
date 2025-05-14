@@ -80,23 +80,27 @@ grid-template-columns: 2fr;
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Adds space between flex items (inputs) */
+  gap: 10px; 
+  width:100%;
 }
 
-
+.form-column{
+  display: flex;
+  justify-content: center;
+}
 
 
 /*form styling*/
 
 .firstname, .lastname, .email {
-  stroke:#555555;
+  border: 1px solid #555555; 
   width: 500px;
   height: 40px;
   border-radius: 10px;
 }
 
 .message {
-  stroke:#555555;
+  border: 1px solid #555555; 
   width: 500px;
   height:100px;
   border-radius: 10px;
@@ -113,3 +117,8 @@ form {
   font-size: 20px;
   font-size: large;
 }
+
+
+  .image-column{
+
+  }
