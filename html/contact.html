@@ -20,17 +20,21 @@
         <h4>If you have any questions or feedback, feel free to contat us! </h4>
         <div class="contact-container">
             <form action="mailto:">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <label for="firstname">First Name</label>
+                <input class="firstname"type="text" id="firstname" name="firstname"  placeholder="Type Your First Name...">
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="lastname">Last Name</label>
+                <input class="lastname"type="text" id="lastname" name="lastname"  placeholder="Type Your Last Name..." required>
+
+
+                <label for="email">Email Address</label>
+                <input class="email" type="email" id="email" name="email"  placeholder="Type Your Email Address.."required>
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea class="message" id="message" name="message" rows="4" required placeholder="Type Your Message..."></textarea>
 
-                <button type="submit">Send</button>
-            </form>"
+                <button class="send-button" type="submit">Send</button>
+            </form>
 
     </main>
 </body>
