@@ -15,33 +15,33 @@
             <a href="html/contact.html">CONTACT</a>
         </nav>
     </header>
-    <main>
+    <main></main>>
         <h1>Contact Us</h1>
         <h4>If you have any questions or feedback, feel free to contat us! </h4>
+        <div class="contact-container">
+            <div class="image-column">
+                <img class="moola-image" src="/assets/images/moola.svg" alt="Moola Logo">
+            </div>
+            
 
-        <div class="image-column">
-            <img class="largelogo" src="/assets/images/moola.svg" alt="Moola Logo">
-       </div>
-        
+            <div class="form-column">
+                <form action="mailto:">
+                    <label for="firstname">First Name</label>
+                    <input class="firstname"type="text" id="firstname" name="firstname"  placeholder="Type Your First Name...">
 
-        <div class="form-column">
-            <form action="mailto:">
-                <label for="firstname">First Name</label>
-                <input class="firstname"type="text" id="firstname" name="firstname"  placeholder="Type Your First Name...">
-
-                <label for="lastname">Last Name</label>
-                <input class="lastname"type="text" id="lastname" name="lastname"  placeholder="Type Your Last Name..." required>
+                    <label for="lastname">Last Name</label>
+                    <input class="lastname"type="text" id="lastname" name="lastname"  placeholder="Type Your Last Name..." required>
 
 
-                <label for="email">Email Address</label>
-                <input class="email" type="email" id="email" name="email"  placeholder="Type Your Email Address.."required>
+                    <label for="email">Email Address</label>
+                    <input class="email" type="email" id="email" name="email"  placeholder="Type Your Email Address.."required>
 
-                <label for="message">Message:</label>
-                <textarea class="message" id="message" name="message" rows="4" required placeholder="Type Your Message..."></textarea>
+                    <label for="message">Message:</label>
+                    <textarea class="message" id="message" name="message" rows="4" required placeholder="Type Your Message..."></textarea>
 
-                <button class="send-button" type="submit">Send</button>
-            </form>
-
+                    <button class="send-button" type="submit">Send</button>
+                </form>
+            </div>
     </main>
 </body>
 </html>

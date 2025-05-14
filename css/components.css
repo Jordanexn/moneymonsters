@@ -77,6 +77,16 @@ grid-template-columns: 2fr;
   flex-wrap: wrap;
 }
 
+/*contact styling*/
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+}
+/*form styling*/
 form {
   display: flex;
   flex-direction: column;
@@ -87,10 +97,9 @@ form {
 .form-column{
   display: flex;
   justify-content: center;
+  margin-left: 100px;
+  Padding-bottom: 10px;
 }
-
-
-/*form styling*/
 
 .firstname, .lastname, .email {
   border: 1px solid #555555; 
@@ -119,6 +128,14 @@ form {
 }
 
 
-  .image-column{
+ .image-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
 
-  }
+.moola-image {
+width: 500px;
+height: 600px;
+}
