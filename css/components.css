@@ -34,7 +34,13 @@
 }
 
 /*Team styling*/
-.column {
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
   width:15%;
   margin-left: auto;
   margin-right: auto;
