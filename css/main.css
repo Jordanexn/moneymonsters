@@ -1,5 +1,11 @@
 
-/*home page styling*/
+body{
+   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 
 h1{
@@ -8,7 +14,7 @@ h1{
   font-weight: 250;
   font-size: 45px;
 }
-
+/*home page styling*/
 
 .video-container{
  position: relative;
@@ -38,10 +44,10 @@ video{
   text-decoration: none;
   font-size: x-large;
 }
-.topnav:hover {
+.topnav a:hover {
     background-color: #c4b1ee;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #7F56D9;
     cursor: pointer;
   }
 
@@ -290,25 +296,16 @@ height: 600px;
         
 
 /*footer styling*/
-footer{
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  line-height: 0; 
-}
-  .footer {
-  line-height: normal; ;
-  background-color: #35245B;
+footer {
+  position: sticky;
+  margin-top: auto;
+ background-color: #35245B;
   color: #ffffff;
   text-align: center;
 }
+ 
 
-.footer p {
-  display: block;;
+footer p {
   font-style: italic;
   font-size: 15px;
-  padding-bottom:0;
-  margin-bottom: 0;
-  
 }
