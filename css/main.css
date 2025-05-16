@@ -99,15 +99,17 @@ position: relative;
 
 /*button styling*/
 .button-container {
-  position: relative; 
+  position: absolute; 
+  bottom: 150px; 
+  left: 0;
+  width: 100%; 
+  z-index: 5;
 }
 
 button {
-  position: absolute;
-  bottom: 150px;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 10;
   width: 200px;
   height: 50px;
   border-radius: 10px;
@@ -117,8 +119,10 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  pointer-events: auto;
 }
-
+ping
   
 
 button a {
